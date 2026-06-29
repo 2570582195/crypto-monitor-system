@@ -1,0 +1,25 @@
+{
+  "processes": [
+    {
+      "name": "btc_eth_monitor_v5",
+      "script": "src/monitors/btc_eth_monitor_v5.py",
+      "restart_on_crash": true,
+      "max_restart_attempts": 3
+    },
+    {
+      "name": "gate_listener",
+      "script": "src/monitors/gate_listener.py",
+      "restart_on_crash": true,
+      "max_restart_attempts": 3
+    },
+    {
+      "name": "telegram_listener_v5",
+      "script": "src/monitors/telegram_listener_v5.py",
+      "restart_on_crash": true,
+      "max_restart_attempts": 3
+    }
+  ],
+  "check_interval": 60,
+  "restart_delay": 5,
+  "max_restart_attempts": 3
+}
