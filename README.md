@@ -61,7 +61,7 @@ crypto-monitor-system/
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/你的用户名/crypto-monitor-system.git
+git clone https://github.com/2570582195/crypto-monitor-system.git
 cd crypto-monitor-system
 ```
 
@@ -174,7 +174,7 @@ Closes #123
 
 ---
 
-## �自动备份策略
+## 🤖 自动备份策略
 
 ### 自动提交配置
 本项目配置了自动化备份机制：
