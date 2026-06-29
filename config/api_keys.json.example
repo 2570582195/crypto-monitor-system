@@ -1,0 +1,6 @@
+{
+  "gateio_api_key": "your_api_key_here",
+  "gateio_api_secret": "your_api_secret_here",
+  "wecom_webhook_url": "your_webhook_url_here",
+  "gateio_passphrase": "your_passphrase_here"
+}

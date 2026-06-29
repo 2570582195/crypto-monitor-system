@@ -1,0 +1,32 @@
+# 加密货币监控系统 - Python依赖清单
+
+# 核心依赖
+requests>=2.31.0          # HTTP请求库
+pandas>=2.0.0            # 数据处理
+numpy>=1.24.0             # 数值计算
+
+# API集成
+python-telegram-bot>=20.0  # Telegram Bot API
+playwright>=1.40.0        # 网页自动化
+
+# 技术指标计算
+ta-lib>=0.4.28            # 技术指标库（可选，需单独安装）
+pandas-ta>=0.3.14b1       # Pandas技术指标扩展
+
+# Web框架（Dashboard）
+flask>=3.0.0              # Web框架
+flask-cors>=4.0.0         # 跨域支持
+
+# 日志和监控
+colorlog>=6.8.0            # 彩色日志
+psutil>=5.9.0              # 系统监控
+
+# 工具库
+python-dotenv>=1.0.0      # 环境变量管理
+schedule>=1.2.0            # 定时任务
+pytz>=2023.3               # 时区处理
+
+# 开发工具（可选）
+black>=23.0.0              # 代码格式化
+flake8>=6.0.0              # 代码检查
+pytest>=7.4.0               # 单元测试
