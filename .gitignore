@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+*.pot
+*.pyc
+__pypackages__/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+coverage/
+.coverage.*
+.pytest_cache/
+.hypothesis/
+.python-version
+celerybeat-schedule
+celerybeat.pid
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+
+# Project specific
+.env
+*.db
+*.sqlite
+*.sqlite3
+node_modules/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.csv
+*.xlsx
+*.json
+!.gitignore
+!项目开发工作记录*.md
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+__cache__/
+.pytest_cache/
+.http_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# API Keys (NEVER commit actual keys)
+config/api_keys.json
+secrets/
+*.key
+*.pem
+*.p12
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# WorkBuddy specific
+.workbuddy/automation-backups/
+.workbuddy/backups/
+.workbuddy/blobs/
+.workbuddy/logs/
+.workbuddy/file-history/
+.workbuddy/clipboard-images/
+.workbuddy/audit-log/
+.workbuddy/artifact-index/
